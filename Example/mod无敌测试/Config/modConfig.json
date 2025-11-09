@@ -2,7 +2,7 @@
     "Name": "主角无敌Mod",
     "Author": "Claude",
     "Version": "1.0.0",
-    "Description": "让主角从游戏开始就处于无敌状态，免疫所有伤害。可以在设置中调整无敌效果的强度。",
+    "Description": "让主角从游戏开始就处于无敌状态，免疫所有伤害并大幅提升输出。可以在设置中调整效果强度。",
     "Settings": [
         {
             "Type": "Toggle",
