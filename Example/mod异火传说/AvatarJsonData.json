@@ -1,0 +1,46 @@
+{
+	"8002":{
+		"id":8002,
+		"Title":"残魂",
+		"FirstName":"",
+		"Name":"燚帝分魂",
+		"face":810,
+		"fightFace":0,
+		"SexType":1,
+		"AvatarType":1,
+		"Level":15,
+		"HP":9000,
+		"dunSu":220,
+		"ziZhi":200,
+		"wuXin":200,
+		"shengShi":240,
+		"shaQi":0,
+		"shouYuan":5000,
+		"age":25,
+		"menPai":"",
+		"equipWeapon":0,
+		"equipClothing":0,
+		"equipRing":0,
+		"LingGen":[
+		],
+		"skills":[
+			
+		],
+		"staticSkills":[
+			
+		],
+		"yuanying":0,
+		"HuaShenLingYu":0,
+		"MoneyType":3,
+		"IsRefresh":1,
+		"dropType":0,
+		"canjiaPaiMai":0,
+		"paimaifenzu":[
+			
+		],
+		"wudaoType":1,
+		"XinQuType":0,
+		"gudingjiage":0,
+		"sellPercent":0
+	}
+}

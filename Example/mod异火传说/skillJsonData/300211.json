@@ -1,0 +1,35 @@
+{
+	"id":300211,
+	"Skill_ID":300203,
+	"Skill_Lv":1,
+	"skillEffect":"315.0",
+	"Skill_Type":4,
+	"name":"琉璃冰焰1",
+	"qingjiaotype":1,
+	"seid":[
+		29,79,115,67
+	],
+	"Affix":[],
+	"Affix2":[],
+	"descr":"【异火】造成（attack）点伤害，敌方获得【冻结】*1，冷却时间4回合",
+	"TuJiandescr":"【异火】造成（attack）点伤害，敌方获得【冻结】*1，冷却时间4回合",
+	"AttackType":[
+		2,3
+	],
+	"script":"SkillAttack",
+	"HP":40,
+	"speed":0,
+	"icon":300203,
+	"Skill_DisplayType":0,
+	"skill_SameCastNum":[],
+	"skill_CastType":[2,3],
+	"skill_Cast":[6,6],
+	"Skill_LV":3,
+	"typePinJie":3,
+	"DF":1,
+	"TuJianType":6,
+	"Skill_Open":1,
+	"Skill_castTime":1,
+	"canUseDistMax":30,
+	"CD":10000
+}

@@ -1,0 +1,20 @@
+{
+	"buffid":300007,
+	"BuffIcon":981,
+	"skillEffect":"fx_Summoner_o",
+	"name":"【燚】上限判断",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		159,92
+	],
+	"descr":"【燚】上限判断",
+	"trigger":12,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":1,
+	"ShowOnlyOne":1
+}

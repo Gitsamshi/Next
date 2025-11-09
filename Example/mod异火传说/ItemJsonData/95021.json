@@ -1,0 +1,35 @@
+{
+	"id":95021,
+	"ItemIcon":96002,
+	"maxNum":1,
+	"name":"大五行真焱",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":20,
+	"ItemFlag": [4,403,4035,4031,4032,4033,4034],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":3,
+	"quality":3,
+	"typePinJie":3,
+	"StuTime":120,
+	"seid":[
+		1
+	],
+	"vagueType":1,
+	"price":500000,
+	"desc":"300207.0",
+	"desc2":"【异火榜排行第三】传闻在天地五行之力交汇之处诞生的火焰，吸收日月精华，具有极强的威能。",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":0,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"wuDao":[
+		1,3,2,3,3,3,4,5,5,3
+
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"id":95026,
+	"ItemIcon":96002,
+	"maxNum":1,
+	"name":"鬼影幻火",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":20,
+	"ItemFlag": [4,403,4034],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":3,
+	"quality":3,
+	"typePinJie":2,
+	"StuTime":120,
+	"seid":[
+		1
+	],
+	"vagueType":1,
+	"price":210000,
+	"desc":"300212.0",
+	"desc2":"【异火榜排行第十二】如同影子一般的火焰，能够对敌人造成重复打击。",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":0,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"wuDao":[
+		4,3
+
+	]
+}

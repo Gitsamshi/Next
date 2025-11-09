@@ -1,0 +1,37 @@
+{
+	"id":300005,
+	"Skill_ID":300001,
+	"Skill_Lv":5,
+	"skillEffect":"306.0",
+	"Skill_Type":4,
+	"name":"帝焱5",
+	"qingjiaotype":1,
+	"seid":[
+		31,115,67
+	],
+	"Affix":[],
+	"Affix2":[
+		
+	],
+	"descr":"【异火】造成200点伤害，获得【燚】*1",
+	"TuJiandescr":"【异火】造成200点伤害，获得【燚】*1",
+	"AttackType":[
+		3
+	],
+	"script":"SkillAttack",
+	"HP":200,
+	"speed":0,
+	"icon":300001,
+	"Skill_DisplayType":0,
+	"skill_SameCastNum":[],
+	"skill_CastType":[3],
+	"skill_Cast":[4],
+	"Skill_LV":2,
+	"typePinJie":3,
+	"DF":1,
+	"TuJianType":6,
+	"Skill_Open":1,
+	"Skill_castTime":1,
+	"canUseDistMax":30,
+	"CD":10000
+}

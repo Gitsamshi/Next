@@ -1,0 +1,35 @@
+{
+	"id":95024,
+	"ItemIcon":96002,
+	"maxNum":1,
+	"name":"碎金真焱",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":20,
+	"ItemFlag": [4,403,4034,4031],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":3,
+	"quality":3,
+	"typePinJie":1,
+	"StuTime":120,
+	"seid":[
+		1
+	],
+	"vagueType":1,
+	"price":120000,
+	"desc":"300210.0",
+	"desc2":"【异火榜排行第十五】融合了金属性的火焰，能够在危机时刻爆发出极强的能量。",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":0,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"wuDao":[
+		1,3,4,3
+
+	]
+}

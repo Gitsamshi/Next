@@ -1,0 +1,35 @@
+{
+	"id":300233,
+	"Skill_ID":300207,
+	"Skill_Lv":3,
+	"skillEffect":"806",
+	"Skill_Type":4,
+	"name":"大五行真焱3",
+	"qingjiaotype":1,
+	"seid":[
+		4,115,67
+	],
+	"Affix":[],
+	"Affix2":[],
+	"descr":"【异火】造成（attack）点伤害，使敌方获得【流血】*6，【中毒】*12，【霜冻】*12，【灼烧】*12，【破体】*3",
+	"TuJiandescr":"【异火】造成（attack）点伤害，使敌方获得【流血】*6，【中毒】*12，【霜冻】*12，【灼烧】*12，【破体】*3",
+	"AttackType":[
+		0,1,2,3,4
+	],
+	"script":"SkillAttack",
+	"HP":120,
+	"speed":0,
+	"icon":300207,
+	"Skill_DisplayType":0,
+	"skill_SameCastNum":[],
+	"skill_CastType":[0,1,2,3,4],
+	"skill_Cast":[3,3,3,3,3],
+	"Skill_LV":3,
+	"typePinJie":3,
+	"DF":1,
+	"TuJianType":6,
+	"Skill_Open":1,
+	"Skill_castTime":1,
+	"canUseDistMax":30,
+	"CD":10000
+}

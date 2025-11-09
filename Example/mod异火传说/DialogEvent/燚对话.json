@@ -1,0 +1,1030 @@
+[
+    {
+        "id":"\u71da\u5bf9\u8bdd",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u627e\u6211\u4f55\u4e8b\uff1f"
+        ],
+        "option":[
+            "\u65e0\u4e8b#\u71da\u65e0\u4e8b",
+            "\u804a\u5929#\u71da\u804a\u5929",
+            "\u8bf7\u6559\u795e\u901a#\u71da\u529f\u6cd5",
+            "\u6d17\u793c#\u71da\u6d17\u793c",
+            "\u5e2e\u60a8\u6062\u590d#\u71da\u8d21\u732e\u503c"
+        ]
+    },
+    {
+        "id":"\u71da\u65e0\u4e8b",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "ChangeInt*\u71da\u804a\u5929\u6570#1"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u8d21\u732e\u503c",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u5bfb\u627e\u795e\u8bc6\u4e39\u836f\u3001\u4e0e\u795e\u8bc6\u6709\u5173\u7684\u5b9d\u7269\u6216\u6536\u96c6\u5f02\u706b\u53ef\u4ee5\u5e2e\u6211\u6062\u590d\u3002\u76ee\u524d\u6062\u590d\u4e86[&GetInt(\"\u71da\u8d21\u732e\")/100&]%\u3002"
+        ],
+        "option":[
+            "\u517b\u9b42\u4e39#\u71da\u9b421# GetItemNum(5206)>0",
+            "\u7075\u9b42\u4e39#\u71da\u9b422# GetItemNum(5305)>0",
+            "\u5389\u9b42\u4e39#\u71da\u9b423# GetItemNum(5405)>0",
+            "\u4e09\u9633\u953b\u9b42\u4e39#\u71da\u9b424# GetItemNum(5504)>0",
+            "\u6e05\u51c9\u6cc9\u6c34#\u71da\u9b425# GetItemNum(97101)>0",
+            "\u6e05\u51c9\u6cc9\u6c34#\u71da\u9b426# GetItemNum(97102)>0",
+            "\u9b42\u73e0#\u71da\u9b427# GetItemNum(97103)>0",
+            "\u9b42\u73e0#\u71da\u9b428# GetItemNum(97104)>0",
+            "\u7687\u9f99\u7130#\u71da\u7687\u9f99\u7130# GetItemNum(95015)>0&&GetInt(\"\u71da\u7687\u9f99\u7130\")==0",
+            "\u5e7d\u51a5\u8840\u7130#\u71da\u5e7d\u51a5\u8840\u7130# GetItemNum(95016)>0&&GetInt(\"\u71da\u5e7d\u51a5\u8840\u7130\")==0",
+            "\u7409\u7483\u51b0\u7130#\u71da\u7409\u7483\u51b0\u7130# GetItemNum(95017)>0&&GetInt(\"\u71da\u7409\u7483\u51b0\u7130\")==0",
+            "\u541e\u7075\u9b3c\u7130#\u71da\u541e\u7075\u9b3c\u7130# GetItemNum(95018)>0&&GetInt(\"\u71da\u541e\u7075\u9b3c\u7130\")==0",
+            "\u51c0\u7075\u4ed9\u7130#\u71da\u51c0\u7075\u4ed9\u7130# GetItemNum(95019)>0&&GetInt(\"\u71da\u51c0\u7075\u4ed9\u7130\")==0",
+            "\u6df1\u6e0a\u9b54\u7130#\u71da\u6df1\u6e0a\u9b54\u7130# GetItemNum(95020)>0&&GetInt(\"\u71da\u6df1\u6e0a\u9b54\u7130\")==0",
+            "\u5927\u4e94\u884c\u771f\u7131#\u71da\u5927\u4e94\u884c\u771f\u7131# GetItemNum(95021)>0&&GetInt(\"\u71da\u5927\u4e94\u884c\u771f\u7131\")==0",
+            "\u5730\u5fc3\u7194\u706b#\u71da\u5730\u5fc3\u7194\u706b# GetItemNum(95022)>0&&GetInt(\"\u71da\u5730\u5fc3\u7194\u706b\")==0",
+            "\u6c34\u7075\u7130#\u71da\u6c34\u7075\u7130# GetItemNum(95023)>0&&GetInt(\"\u71da\u6c34\u7075\u7130\")==0",
+            "\u788e\u91d1\u771f\u7131#\u71da\u788e\u91d1\u771f\u7131# GetItemNum(95024)>0&&GetInt(\"\u71da\u788e\u91d1\u771f\u7131\")==0",
+            "\u661f\u661f\u4e4b\u706b#\u71da\u661f\u661f\u4e4b\u706b# GetItemNum(95025)>0&&GetInt(\"\u71da\u661f\u661f\u4e4b\u706b\")==0",
+            "\u9b3c\u5f71\u5e7b\u706b#\u71da\u9b3c\u5f71\u5e7b\u706b# GetItemNum(95026)>0&&GetInt(\"\u71da\u9b3c\u5f71\u5e7b\u706b\")==0",
+            "\u6781\u9634\u51b7\u706b#\u71da\u6781\u9634\u51b7\u706b# GetItemNum(3315)>0&&GetInt(\"\u71da\u6781\u9634\u51b7\u706b\")==0",
+            "\u8680\u9aa8\u6bd2\u706b#\u71da\u8680\u9aa8\u6bd2\u706b# GetItemNum(3334)>0&&GetInt(\"\u71da\u8680\u9aa8\u6bd2\u706b\")==0",
+            "\u4e5d\u5929\u52ab\u706b#\u71da\u4e5d\u5929\u52ab\u706b# GetItemNum(3335)>0&&GetInt(\"\u71da\u4e5d\u5929\u52ab\u706b\")==0",
+            "\u8fd4\u56de#\u71da\u5bf9\u8bdd"
+        ]
+    },
+    {
+        "id":"\u71da\u7687\u9f99\u7130",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u7687\u9f99\u7130\uff0c\u4e0d\u9519\uff0c\u60f3\u4e0d\u5230\u4f60\u80fd\u5f04\u5230\u8fd9\u7b49\u5f02\u706b",
+            "ChangeInt*\u71da\u8d21\u732e#200",
+            "ChangeInt*\u71da\u8d21\u732e#550",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u7687\u9f99\u7130#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u5e7d\u51a5\u8840\u7130",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u5e7d\u51a5\u8840\u7130\uff0c\u4e0d\u9519\uff0c\u60f3\u4e0d\u5230\u4f60\u80fd\u5f04\u5230\u8fd9\u7b49\u5f02\u706b",
+            "ChangeInt*\u71da\u8d21\u732e#200",
+            "ChangeInt*\u71da\u8d21\u732e#350",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u5e7d\u51a5\u8840\u7130#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u7409\u7483\u51b0\u7130",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u7409\u7483\u51b0\u7130\uff0c\u6781\u5bd2\u4e4b\u5730\u96c6\u5929\u5730\u9020\u5316\u8bde\u751f\u7684\u706b\u7130\uff0c\u5b83\u80fd\u591f\u4f7f\u6211\u7684\u795e\u9b42\u53d8\u5f97\u66f4\u52a0\u7a33\u5b9a",
+            "ChangeInt*\u71da\u8d21\u732e#300",
+            "ChangeInt*\u71da\u8d21\u732e#800",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u7409\u7483\u51b0\u7130#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u541e\u7075\u9b3c\u7130",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u541e\u7075\u9b3c\u7130\uff0c\u4e0d\u9519\uff0c\u60f3\u4e0d\u5230\u4f60\u80fd\u5f04\u5230\u8fd9\u7b49\u5f02\u706b",
+            "ChangeInt*\u71da\u8d21\u732e#200",
+            "ChangeInt*\u71da\u8d21\u732e#650",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u541e\u7075\u9b3c\u7130#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u51c0\u7075\u4ed9\u7130",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u51c0\u7075\u4ed9\u7130\uff0c\u6765\u81ea\u4ed9\u754c\u7684\u706b\u7130\uff0c\u80fd\u591f\u6cbb\u6108\u4e00\u5207\uff0c\u80fd\u591f\u6781\u5927\u7684\u6062\u590d\u6211\u7684\u795e\u8bc6",
+            "ChangeInt*\u71da\u8d21\u732e#300",
+            "ChangeInt*\u71da\u8d21\u732e#1100",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u51c0\u7075\u4ed9\u7130#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u6df1\u6e0a\u9b54\u7130",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u6df1\u6e0a\u9b54\u7130\uff0c\u4e0d\u9519\uff0c\u60f3\u4e0d\u5230\u4f60\u80fd\u5f04\u5230\u8fd9\u7b49\u5f02\u706b",
+            "ChangeInt*\u71da\u8d21\u732e#200",
+            "ChangeInt*\u71da\u8d21\u732e#600",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u6df1\u6e0a\u9b54\u7130#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u5927\u4e94\u884c\u771f\u7131",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u5927\u4e94\u884c\u771f\u7131\uff0c\u8fd9\u8574\u542b\u4e86\u4e94\u884c\u4e4b\u529b\u7684\u706b\u7130\uff0c\u5bf9\u6211\u6062\u590d\u7684\u5e2e\u52a9\u6781\u5927",
+            "ChangeInt*\u71da\u8d21\u732e#300",
+            "ChangeInt*\u71da\u8d21\u732e#1000",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u5927\u4e94\u884c\u771f\u7131#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u5730\u5fc3\u7194\u706b",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u5730\u5fc3\u7194\u706b\uff0c\u8fd8\u884c\u5427",
+            "ChangeInt*\u71da\u8d21\u732e#100",
+            "ChangeInt*\u71da\u8d21\u732e#0",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u5730\u5fc3\u7194\u706b#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u6c34\u7075\u7130",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u6c34\u7075\u7130\uff0c\u8fd8\u884c\u5427",
+            "ChangeInt*\u71da\u8d21\u732e#100",
+            "ChangeInt*\u71da\u8d21\u732e#300",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u6c34\u7075\u7130#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u788e\u91d1\u771f\u7131",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u788e\u91d1\u771f\u7131\uff0c\u8fd8\u884c\u5427",
+            "ChangeInt*\u71da\u8d21\u732e#100",
+            "ChangeInt*\u71da\u8d21\u732e#250",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u788e\u91d1\u771f\u7131#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u661f\u661f\u4e4b\u706b",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u661f\u661f\u4e4b\u706b\uff0c\u4e0d\u9519\uff0c\u60f3\u4e0d\u5230\u4f60\u80fd\u5f04\u5230\u8fd9\u7b49\u5f02\u706b",
+            "ChangeInt*\u71da\u8d21\u732e#200",
+            "ChangeInt*\u71da\u8d21\u732e#500",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u661f\u661f\u4e4b\u706b#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u9b3c\u5f71\u5e7b\u706b",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u9b3c\u5f71\u5e7b\u706b\uff0c\u4e0d\u9519\uff0c\u60f3\u4e0d\u5230\u4f60\u80fd\u5f04\u5230\u8fd9\u7b49\u5f02\u706b",
+            "ChangeInt*\u71da\u8d21\u732e#200",
+            "ChangeInt*\u71da\u8d21\u732e#400",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u9b3c\u5f71\u5e7b\u706b#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u6781\u9634\u51b7\u706b",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u6781\u9634\u51b7\u706b\uff0c\u8fd8\u884c\u5427",
+            "ChangeInt*\u71da\u8d21\u732e#100",
+            "ChangeInt*\u71da\u8d21\u732e#100",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u6781\u9634\u51b7\u706b#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u8680\u9aa8\u6bd2\u706b",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u8680\u9aa8\u6bd2\u706b\uff0c\u4e0d\u9519\uff0c\u60f3\u4e0d\u5230\u4f60\u80fd\u5f04\u5230\u8fd9\u7b49\u5f02\u706b",
+            "ChangeInt*\u71da\u8d21\u732e#200",
+            "ChangeInt*\u71da\u8d21\u732e#350",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u8680\u9aa8\u6bd2\u706b#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u4e5d\u5929\u52ab\u706b",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u4e5d\u5929\u52ab\u706b\uff0c\u4e0d\u9519\uff0c\u60f3\u4e0d\u5230\u4f60\u80fd\u5f04\u5230\u8fd9\u7b49\u5f02\u706b",
+            "ChangeInt*\u71da\u8d21\u732e#200",
+            "ChangeInt*\u71da\u8d21\u732e#450",
+            "ChangeInt*\u71da\u5f02\u706b\u6570#1",
+            "ChangeInt*\u71da\u4e5d\u5929\u52ab\u706b#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u804a\u5929",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u5c0f\u5b50\u5feb\u4fee\u70bc\u53bb\u5427\u3002",
+            "ChangeInt*\u71da\u804a\u5929\u6570#1"
+        ],
+        "option":[
+            "\u6cd5\u5b9d#\u6cd5\u5b9d1#GetInt(\"\u71da\u8d21\u732e\")>7000&&GetInt(\"\u71da\u6cd5\u5b9d\")==0&&GetInt(\"\u71da\u804a\u5929\u6570\")>20",
+            "\u6cd5\u5b9d#\u6cd5\u5b9d2#GetInt(\"\u71da\u8d21\u732e\")>15000&&GetInt(\"\u71da\u6cd5\u5b9d\")==1&&GetInt(\"\u71da\u804a\u5929\u6570\")>40",
+            "\u6cd5\u5b9d#\u6cd5\u5b9d3#GetInt(\"\u71da\u8d21\u732e\")>25000&&GetInt(\"\u71da\u6cd5\u5b9d\")==2&&GetInt(\"\u71da\u804a\u5929\u6570\")>80",
+            "\u6cd5\u5b9d#\u6cd5\u5b9d4#GetInt(\"\u71da\u8d21\u732e\")>50000&&GetInt(\"\u71da\u6cd5\u5b9d\")==3&&GetInt(\"\u71da\u804a\u5929\u6570\")>120",
+            "\u597d\u7684^_^#"
+        ]
+    },
+    {
+        "id":"\u6cd5\u5b9d1",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u8fd9\u6bb5\u65f6\u95f4\u4f60\u4e3a\u6211\u627e\u5bfb\u6062\u590d\u795e\u8bc6\u7684\u4e39\u836f\u4e5f\u8f9b\u82e6\u4e86\uff0c\u6211\u4fbf\u9001\u4f60\u4e00\u4ef6\u6cd5\u5b9d\u3002",
+            "\u4e3b\u89d2#\u591a\u8c22\u71da\u5e1d",
+            "AddItem*95011#1#1",
+            "SetInt*\u71da\u6cd5\u5b9d#1",
+            "Event*\u71da\u5bf9\u8bdd"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u6cd5\u5b9d2",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u770b\u5728\u4f60\u8fd9\u4e48\u7528\u5fc3\u4e3a\u6211\u6062\u590d\u795e\u9b42\u7684\u5fc3\u4e0a\uff0c\u6211\u4fbf\u518d\u9001\u4f60\u4e00\u4ef6\u6cd5\u5b9d\u3002",
+            "\u4e3b\u89d2#\u591a\u8c22\u71da\u5e1d",
+            "AddItem*95012#1#1",
+            "SetInt*\u71da\u6cd5\u5b9d#2",
+            "Event*\u71da\u5bf9\u8bdd"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u6cd5\u5b9d3",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u770b\u5728\u575a\u6301\u4e0d\u61c8\u4e3a\u6211\u6062\u590d\u795e\u8bc6\u7684\u4efd\u4e0a\uff0c\u6211\u4fbf\u5c06\u71da\u5e1d\u7559\u5728\u6b64\u754c\u7684\u795e\u5668\u8d60\u4e8e\u4f60\u3002",
+            "\u4e3b\u89d2#\u591a\u8c22\u71da\u5e1d",
+            "AddItem*95014#1#1",
+            "SetInt*\u71da\u6cd5\u5b9d#3",
+            "Event*\u71da\u5bf9\u8bdd"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u6cd5\u5b9d4",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u5373\u4f7f\u6211\u65e0\u6cd5\u7ed9\u4e88\u4f60\u66f4\u591a\u4e1c\u897f\uff0c\u4f60\u4e5f\u4f9d\u7136\u5e2e\u6211\u5bfb\u627e\u4fee\u590d\u795e\u8bc6\u7684\u4e39\u836f",
+            "\u71da#\u8981\u662f\u6211\u771f\u662f\u6211\u5f92\u5f1f\u5c31\u597d\u4e86",
+            "\u71da#\u53ef\u60dc\u6211\u8fd9\u7f15\u5206\u9b42\u5df2\u7ecf\u6ca1\u4ec0\u4e48\u597d\u5e2e\u4f60\u7684\u4e86",
+            "\u71da#\u4e16\u95f4\u5df2\u7ecf\u8fc7\u53bb\u4e07\u5e74",
+            "\u71da#\u6211\u7684\u672c\u5c0a\u53ef\u80fd\u5df2\u7ecf\u5230\u4e86\u5929\u5916\u4e4b\u5883",
+            "\u71da#\u5373\u4f7f\u662f\u6211\u8fd9\u7f15\u5206\u9b42\u4e5f\u65e0\u6cd5\u8054\u7cfb\u5230\u672c\u5c0a\u4e86",
+            "\u71da#\u5509\uff0c\u770b\u5728\u4f60\u8fd9\u4e48\u7528\u5fc3\u52a9\u6211\u8fd9\u7f15\u5206\u9b42\u7684\u4efd\u4e0a",
+            "\u71da#\u6211\u4fbf\u544a\u8bc9\u4f60\u4e00\u4e2a\u5173\u4e8e\u8d64\u4e91\u6731\u96c0\u6247\u7684\u4e00\u4e2a\u79d8\u5bc6"
+        ],
+        "option":[
+            "\u54e6\uff0c\u4ec0\u4e48\u79d8\u5bc6\uff1f#\u71da\u6289\u62e9"
+        ]
+    },
+    {
+        "id":"\u71da\u6289\u62e9",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u4f60\u4e00\u5b9a\u5947\u602a\uff0c\u4e3a\u4f55\u71da\u5e1d\u767b\u4ed9\u540e\u6253\u9020\u7684\u6cd5\u5b9d\u53ea\u6709\u8fd9\u70b9\u5a01\u80fd",
+            "\u71da#\u5176\u5b9e\uff0c\u56e0\u4e3a\u5b83\u7f3a\u5c11\u4e86\u6700\u91cd\u8981\u7684\u4e00\u90e8\u5206\u2014\u2014\u5668\u7075",
+            "\u71da#\u5f53\u65f6\u71da\u5e1d\u4e3a\u4e86\u964d\u4e0b\u4f20\u627f",
+            "\u71da#\u5728\u4fdd\u8bc1\u4e0d\u89e6\u72af\u4e0a\u754c\u5929\u9053\u7684\u60c5\u51b5\u4e0b\uff0c\u6253\u9020\u4e86\u8fd9\u4ef6\u795e\u5668",
+            "\u71da#\u4e3a\u4e86\u4e0d\u8d85\u8d8a\u6b64\u754c\u80fd\u591f\u627f\u8f7d\u7684\u80fd\u91cf\uff0c\u4fbf\u6ca1\u6709\u704c\u6ce8\u5668\u7075",
+            "\u71da#\u5f53\u8fd9\u4ef6\u4f2a\u795e\u5668\u7834\u5f00\u4e16\u754c\u58c1\u5792",
+            "\u71da#\u56e0\u65e0\u4eba\u64cd\u63a7",
+            "\u71da#\u6765\u5230\u6b64\u754c\u65f6\u88ab\u91cd\u521b\u3002",
+            "\u71da#\u800c\u6211\u8fd9\u7f15\u7075\u9b42\u4e3a\u4e86\u5bfb\u627e\u4f20\u627f\u4eba",
+            "\u71da#\u5728\u7a81\u7834\u4e16\u754c\u58c1\u5792\u7684\u65f6\u5019\u4e5f\u4e0d\u6562\u73b0\u8eab",
+            "\u71da#\u5426\u5219\u88ab\u5929\u9053\u53d1\u73b0\uff0c\u6781\u6709\u53ef\u80fd\u88ab\u706d\u6740",
+            "\u71da#\u73b0\u5728\uff0c\u6211\u4e5f\u5b8c\u6210\u4e86\u4f7f\u547d",
+            "\u71da#\u5e76\u4e14\u4f60\u8fd8\u989d\u5916\u4e3a\u6211\u6062\u590d\u4e86\u8fd9\u4e48\u591a\u80fd\u91cf",
+            "\u71da#\u53ea\u8981\u6211\u5c06\u80fd\u91cf\u6ce8\u5165\u8fd9\u4ef6\u6cd5\u5b9d",
+            "\u71da#\u5e76\u5316\u4e3a\u5b83\u7684\u5668\u7075",
+            "\u71da#\u8fd9\u4ef6\u795e\u5668\u4fbf\u80fd\u91cd\u73b0\u6614\u65e5\u7684\u8f89\u714c",
+            "\u71da#\u8fd9\u4ef6\u6cd5\u5b9d\u4e5f\u5c06\u8fbe\u5230\u4f2a\u795e\u5668\u5dc5\u5cf0"
+        ],
+        "option":[
+            "\u7b97\u4e86#\u71da\u4e0d\u8981\u6cd5\u5b9d",
+            "\u597d\uff0c\u6211\u4e5f\u60f3\u89c1\u8bc6\u4e0b\u4f20\u8bf4\u4e2d\u7684\u795e\u5668#\u71da\u8981\u6cd5\u5b9d"
+        ]
+    },
+    {
+        "id":"\u71da\u4e0d\u8981\u6cd5\u5b9d",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u4e3b\u89d2#\u60a8\u8001\u966a\u4f34\u6211\u4fee\u70bc",
+            "\u4e3b\u89d2#\u5c31\u5982\u540c\u6211\u7684\u5e08\u5085\u4e00\u822c",
+            "\u4e3b\u89d2#\u867d\u7136\u4e00\u5f00\u59cb\u6211\u7684\u786e\u60f3\u4f9d\u9760\u60a8\u7684\u529b\u91cf\u6210\u5c31\u7edd\u4e16\u5f3a\u8005",
+            "\u4e3b\u89d2#\u4f46\u662f\u8fd9\u4e48\u591a\u5e74\u7684\u76f8\u5904\u4e0b\u6765\uff0c\u60a8\u5df2\u7ecf\u6210\u4e3a\u6211\u751f\u6d3b\u4fee\u70bc\u4e2d\u5fc5\u4e0d\u53ef\u5c11\u7684\u4e00\u90e8\u5206\u4e86\u3002",
+            "\u4e3b\u89d2#\u6211\u600e\u4e48\u5fcd\u5fc3\u770b\u7740\u4f60\u8017\u5c3d\u795e\u9b42\u529b\u91cf\u5462",
+            "\u4e3b\u89d2#\u54ea\u6015\u662f\u7edd\u4e16\u795e\u5668\uff0c\u4e5f\u62b5\u4e0d\u4e0a\u6211\u4e0e\u60a8\u4e4b\u95f4\u7684\u60c5\u5206",
+            "\u4e3b\u89d2#\u8fd9\u795e\u5668\u4e0d\u8981\u4e5f\u7f62",
+            "\u4e3b\u89d2#\u6211\u53ea\u5e0c\u671b\u60a8\u80fd\u591f\u4e00\u76f4\u966a\u4f34\u7740\u6211",
+            "\u71da#\u80fd\u6709\u4f60\u8fd9\u6837\u7684\u5f92\u5f1f\uff0c\u771f\u662f\u5929\u5927\u7684\u798f\u5206\u554a\uff01",
+            "SetInt*\u71da\u6cd5\u5b9d#4",
+            "SetInt*\u71da\u5e1d\u4f20\u95fb#3"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u8981\u6cd5\u5b9d",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u4e5f\u7f62\uff0c\u6211\u7684\u5b58\u5728\u672c\u5c31\u662f\u4e3a\u71da\u5e1d\u5bfb\u627e\u4f20\u627f\u8005",
+            "\u71da#\u5c31\u8ba9\u4f60\u89c1\u8bc6\u4e00\u4e0b\u71da\u5e1d\u7559\u5728\u6b64\u754c\u7684\u6700\u5f3a\u6cd5\u5b9d\u5427\uff01",
+            "SetInt*\u71da\u6cd5\u5b9d#3",
+            "RemoveItem*95014#1#0",
+            "RemoveItem*95007#1#0",
+            "AddItem*95010#1#0",
+            "AddItem*95013#1#1"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u5bf9\u8bdd2",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1
+        },
+        "dialog":[
+            "\u65c1\u767d#\u4f60\u5c06\u7075\u529b\u6ce8\u5165\u7389\u4f69\uff0c\u4ec0\u4e48\u53cd\u5e94\u90fd\u6ca1\u6709\u3002"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u529f\u6cd5",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u4f60\u60f3\u8981\u8bf7\u6559\u4ec0\u4e48"
+        ],
+        "option":[
+            "\u5e1d\u7131#\u71da\u795e\u901a1#GetInt(\"\u71da\u795e\u901a1\")==0",
+            "\u7131\u7206#\u71da\u795e\u901a2#GetInt(\"\u71da\u795e\u901a2\")==0",
+            "\u5343\u4e07\u5316\u8eab#\u71da\u795e\u901a3#GetInt(\"\u71da\u795e\u901a3\")==0",
+            "\u4e0b\u4e00\u9875#\u71da\u529f\u6cd52",
+            "\u8fd4\u56de#\u71da\u5bf9\u8bdd"
+        ]
+    },
+    {
+        "id":"\u71da\u529f\u6cd52",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u4f60\u60f3\u8981\u8bf7\u6559\u4ec0\u4e48"
+        ],
+        "option":[
+            "\u795e\u7981\u706b\u57df#\u71da\u795e\u901a4#GetInt(\"\u71da\u795e\u901a4\")==0",
+            "\u805a\u7075#\u71da\u795e\u901a5#GetInt(\"\u71da\u795e\u901a5\")==0",
+            "\u5e1d\u7131\u5206\u8eab#\u71da\u795e\u901a6#GetInt(\"\u71da\u795e\u901a6\")==0",
+            "\u4e0a\u4e00\u9875#\u71da\u529f\u6cd5",
+            "\u8fd4\u56de#\u71da\u5bf9\u8bdd"
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u6bcf\u6062\u590d8%\u5373\u53ef\u6d17\u793c\u4e00\u6b21\u3002\u603b\u5171\u80fd\u6d17\u793c20\u6b21\uff0c\u4f60\u5df2\u7ecf\u6d17\u793c[&GetInt(\"\u71da\u6d17\u793c\")&]\u6b21\u3002"
+        ],
+        "option":[
+            "\u8d44\u8d28#\u71da\u6d17\u793c1",
+            "\u609f\u6027#\u71da\u6d17\u793c2",
+            "\u795e\u8bc6#\u71da\u6d17\u793c3",
+            "\u9041\u901f#\u71da\u6d17\u793c4",
+            "\u609f\u9053\u70b9#\u71da\u6d17\u793c5",
+            "\u8fd4\u56de#\u71da\u5bf9\u8bdd"
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c1",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u4f60\u786e\u5b9a\u8981\u6d17\u793c\u4e48\uff1f\u6d17\u793c\u540e\u8d44\u8d28+5"
+        ],
+        "option":[
+            "\u597d#\u71da\u6d17\u793c11#GetInt(\"\u71da\u6d17\u793c\")<GetInt(\"\u71da\u8d21\u732e\")/800&&GetInt(\"\u71da\u6d17\u793c\")<20",
+            "\u8fd4\u56de#\u71da\u6d17\u793c"
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c11",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "ChangeInt*\u71da\u6d17\u793c#1",
+            "ChangeTalent*5",
+            "Event*\u71da\u6d17\u793c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c2",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u4f60\u786e\u5b9a\u8981\u6d17\u793c\u4e48\uff1f\u6d17\u793c\u540e\u609f\u6027+5"
+        ],
+        "option":[
+            "\u597d#\u71da\u6d17\u793c21#GetInt(\"\u71da\u6d17\u793c\")<GetInt(\"\u71da\u8d21\u732e\")/800&&GetInt(\"\u71da\u6d17\u793c\")<20",
+            "\u8fd4\u56de#\u71da\u6d17\u793c"
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c21",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "ChangeInt*\u71da\u6d17\u793c#1",
+            "ChangeAbility*5",
+            "Event*\u71da\u6d17\u793c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c3",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u4f60\u786e\u5b9a\u8981\u6d17\u793c\u4e48\uff1f\u6d17\u793c\u540e\u795e\u8bc6+10"
+        ],
+        "option":[
+            "\u597d#\u71da\u6d17\u793c31#GetInt(\"\u71da\u6d17\u793c\")<GetInt(\"\u71da\u8d21\u732e\")/800&&GetInt(\"\u71da\u6d17\u793c\")<20",
+            "\u8fd4\u56de#\u71da\u6d17\u793c"
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c31",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "ChangeInt*\u71da\u6d17\u793c#1",
+            "ChangeBaseSpirit*10",
+            "Event*\u71da\u6d17\u793c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c4",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u4f60\u786e\u5b9a\u8981\u6d17\u793c\u4e48\uff1f\u6d17\u793c\u540e\u9041\u901f+10"
+        ],
+        "option":[
+            "\u597d#\u71da\u6d17\u793c41#GetInt(\"\u71da\u6d17\u793c\")<GetInt(\"\u71da\u8d21\u732e\")/800&&GetInt(\"\u71da\u6d17\u793c\")<20",
+            "\u8fd4\u56de#\u71da\u6d17\u793c"
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c41",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "ChangeInt*\u71da\u6d17\u793c#1",
+            "ChangeBaseMoveSpeed*10",
+            "Event*\u71da\u6d17\u793c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c5",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u4f60\u786e\u5b9a\u8981\u6d17\u793c\u4e48\uff1f\u6d17\u793c\u540e\u609f\u9053\u70b9+1,"
+        ],
+        "option":[
+            "\u597d#\u71da\u6d17\u793c51#GetInt(\"\u71da\u6d17\u793c\")<GetInt(\"\u71da\u8d21\u732e\")/800&&GetInt(\"\u71da\u6d17\u793c\")<20",
+            "\u8fd4\u56de#\u71da\u6d17\u793c"
+        ]
+    },
+    {
+        "id":"\u71da\u6d17\u793c51",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "ChangeInt*\u71da\u6d17\u793c#1",
+            "ChangeComprehensionPoint*1",
+            "Event*\u71da\u6d17\u793c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a1",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u6b64\u4e43\u6211\u7684\u672c\u547d\u706b\u7130\uff0c\u5728\u6211\u98de\u5347\u4e4b\u65f6\uff0c\u5c06\u4e00\u7f15\u706b\u79cd\u70bc\u5316\u6210\u4e39\u836f\u3002\u53ea\u9700\u8981\u4e3a\u6211\u6062\u590d\u4e00\u70b9\u70b9\uff0c\u6211\u4fbf\u80fd\u591f\u5c06\u4e39\u836f\u7ed9\u4e88\u4f60\u3002"
+        ],
+        "option":[
+            "\u597d#\u71da\u795e\u901a11#GetInt(\"\u71da\u8d21\u732e\")>0",
+            "\u8fd4\u56de#\u71da\u529f\u6cd5"
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a11",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "AddItem*95001#1#1",
+            "SetInt*\u71da\u795e\u901a1#1",
+            "Event*\u71da\u529f\u6cd5"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a2",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u6b64\u62db\u80fd\u591f\u5c06\u5bf9\u624b\u4f53\u5185\u7684\u707c\u70e7\u77ac\u95f4\u5f15\u7206\uff0c\u9020\u6210\u5de8\u989d\u4f24\u5bb3\u3002\u54ea\u6015\u4f60\u9762\u5bf9\u4fee\u70bc\u706b\u7cfb\u529f\u6cd5\u7684\u654c\u4eba\uff0c\u4e5f\u80fd\u4f9d\u9760\u6b64\u62db\u5236\u80dc\u3002\u9700\u8981\u6062\u590d5%\uff0c\u6211\u4fbf\u80fd\u591f\u5c06\u5b83\u4f20\u6388\u7ed9\u4f60\u3002"
+        ],
+        "option":[
+            "\u597d#\u71da\u795e\u901a21#GetInt(\"\u71da\u8d21\u732e\")>499",
+            "\u8fd4\u56de#\u71da\u529f\u6cd5"
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a21",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "AddItem*95002#1#1",
+            "SetInt*\u71da\u795e\u901a2#1",
+            "Event*\u71da\u529f\u6cd5"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a3",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u6211\u7684\u672c\u547d\u706b\u7130\u53ef\u4ee5\u5e7b\u5316\u6210\u4efb\u4f55\u4e00\u79cd\u4e16\u95f4\u5f02\u706b\uff0c\u6b64\u95e8\u795e\u901a\u4fbf\u662f\u8f6c\u6362\u7684\u6280\u5de7\u3002\u9700\u8981\u7d2f\u6062\u590d20%\uff0c\u540c\u65f6\u4e3a\u6211\u63d0\u4f9b3\u79cd\u5f02\u706b\uff0c\u4fbf\u53ef\u5c06\u6b64\u95e8\u529f\u6cd5\u7ed9\u4e88\u4f60\uff0c\u3002"
+        ],
+        "option":[
+            "\u597d#\u71da\u795e\u901a31#GetInt(\"\u71da\u8d21\u732e\")>1999&&GetInt(\"\u71da\u5f02\u706b\u6570\")>2",
+            "\u8fd4\u56de#\u71da\u529f\u6cd5"
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a31",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "AddItem*95003#1#1",
+            "SetInt*\u71da\u795e\u901a3#1",
+            "Event*\u71da\u529f\u6cd5"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a4",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u6b64\u4e43\u6211\u521b\u7edd\u4e16\u795e\u6280\uff0c\u4ee5\u5e1d\u7131\u4e3a\u5f15\uff0c\u5f62\u6210\u706b\u57df\u3002\u9886\u57df\u5b58\u5728\u4e4b\u65f6\uff0c\u514d\u75ab\u4e00\u5207\u653b\u51fb\u3002\u540c\u65f6\u4f60\u5bf9\u4e8e\u706b\u7130\u7684\u4eb2\u548c\u529b\u4f1a\u6781\u5927\u5730\u4e0a\u5347\u3002\u9700\u8981\u5b8c\u5168\u6062\u590d\uff0c\u6211\u4fbf\u80fd\u591f\u5c06\u6b64\u95e8\u7edd\u6280\u4f20\u6388\u4e8e\u4f60\u3002"
+        ],
+        "option":[
+            "\u597d#\u71da\u795e\u901a41#GetInt(\"\u71da\u8d21\u732e\")>9999",
+            "\u8fd4\u56de#\u71da\u529f\u6cd52"
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a41",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "AddItem*95004#1#1",
+            "SetInt*\u71da\u795e\u901a4#1",
+            "Event*\u71da\u529f\u6cd52"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a5",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u6b64\u95e8\u795e\u901a\u53ef\u4ee5\u5c06\u7075\u6c14\u901a\u8fc7\u5e1d\u7131\u8f6c\u5316\u4e3a\u7cbe\u7eaf\u7684\u706b\u7075\u6c14\u3002\u9700\u8981\u6062\u590d0.3%\uff0c\u6211\u4fbf\u53ef\u4f20\u6388\u4e8e\u4f60\u3002"
+        ],
+        "option":[
+            "\u597d#\u71da\u795e\u901a51#GetInt(\"\u71da\u8d21\u732e\")>29",
+            "\u8fd4\u56de#\u71da\u529f\u6cd52"
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a51",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "AddItem*95005#1#1",
+            "SetInt*\u71da\u795e\u901a5#1",
+            "Event*\u71da\u529f\u6cd52"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a6",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u6b64\u6280\u80fd\u9700\u8981\u6709\u6781\u9ad8\u7684\u706b\u7130\u64cd\u63a7\u529b\uff0c\u5c06\u5e1d\u7131\u51dd\u805a\u6210\u4e00\u5177\u5206\u8eab\uff0c\u5206\u8eab\u4f1a\u5e2e\u4f60\u65bd\u5c55\u5e1d\u7131\u653b\u51fb\u5bf9\u624b\u3002\u9700\u8981\u6062\u590d50%\uff0c\u6211\u4fbf\u53ef\u4f20\u6388\u4e8e\u4f60"
+        ],
+        "option":[
+            "\u597d#\u71da\u795e\u901a61#GetInt(\"\u71da\u8d21\u732e\")>4999",
+            "\u8fd4\u56de#\u71da\u529f\u6cd52"
+        ]
+    },
+    {
+        "id":"\u71da\u795e\u901a61",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "AddItem*95006#1#1",
+            "SetInt*\u71da\u795e\u901a6#1",
+            "Event*\u71da\u529f\u6cd52"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u9b421",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u55ef\uff0c\u4e0d\u9519\uff0c\u5c31\u662f\u80fd\u91cf\u5c11\u4e86\u70b9\uff0c\u8981\u662f\u67094\u54c1\u4e39\u836f\u5c31\u597d\u4e86",
+            "RemoveItem*5206#1#1",
+            "ChangeInt*\u71da\u8d21\u732e#1",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u9b422",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u55ef\uff0c\u4e0d\u9519\uff0c\u7a0d\u5fae\u6bd4\u4e09\u54c1\u7684\u5f3a\u70b9",
+            "RemoveItem*5305#1#1",
+            "ChangeInt*\u71da\u8d21\u732e#10",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u9b423",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#5\u54c1\u4e39\u836f\uff0c\u4e0d\u9519\uff0c\u591a\u5f04\u70b9\u6211\u7684\u795e\u8bc6\u5c31\u80fd\u6062\u590d\u4e86",
+            "RemoveItem*5405#1#1",
+            "ChangeInt*\u71da\u8d21\u732e#100",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u9b424",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#6\u54c1\u4e39\u836f\uff0c\u8fd9\u53ef\u662f\u6781\u4e3a\u7a00\u6709\u4e4b\u7269\u554a\uff0c\u5bf9\u795e\u9b42\u5927\u6709\u88e8\u76ca",
+            "RemoveItem*5504#1#1",
+            "ChangeInt*\u71da\u8d21\u732e#800",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u9b425",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u8fd9\u96fe\u6c14\uff0c\u7adf\u7136\u5bf9\u6062\u590d\u795e\u9b42\u6709\u6548\u679c",
+            "RemoveItem*97101#1#1",
+            "ChangeInt*\u71da\u8d21\u732e#5",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u9b426",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u5438\u6536\u4e86\u8fd9\u6cc9\u6c34\uff0c\u611f\u89c9\u795e\u9b42\u6062\u590d\u4e86\u4e9b\u8bb8",
+            "RemoveItem*97102#1#1",
+            "ChangeInt*\u71da\u8d21\u732e#30",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u9b427",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u5438\u6536\u4e86\u9b42\u73e0\uff0c\u611f\u89c9\u795e\u8bc6\u6062\u590d\u4e86\u8bb8\u591a",
+            "RemoveItem*97103#1#1",
+            "ChangeInt*\u71da\u8d21\u732e#500",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    },
+    {
+        "id":"\u71da\u9b428",
+        "character":{
+            "\u65c1\u767d" : 0,
+            "\u4e3b\u89d2" : 1,
+            "\u71da" : 8002
+        },
+        "dialog":[
+            "\u71da#\u8fd9\u7b49\u54c1\u8d28\u7684\u9b42\u73e0\uff0c\u60f3\u5fc5\u4f60\u4e5f\u4e0d\u5bb9\u6613\u5f97\u5230",
+            "\u71da#\u8fd9\u5bf9\u6062\u590d\u795e\u8bc6\u53ef\u662f\u7075\u4e39\u5999\u836f\u554a",
+            "RemoveItem*97104#1#1",
+            "ChangeInt*\u71da\u8d21\u732e#4000",
+            "Event*\u71da\u8d21\u732e\u503c"
+        ],
+        "option":[
+        ]
+    }
+]

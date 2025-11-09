@@ -1,0 +1,32 @@
+{
+	"id": 96001,
+	"ItemIcon": 96002,
+	"maxNum": 1,
+	"name": "燚诀",
+	"FaBaoType": "",
+	"Affix": [],
+	"TuJianType": 0,
+	"ShopType": 99,
+	"ItemFlag": [5,503,5034],
+	"WuWeiType": 0,
+	"ShuXingType": 0,
+	"type": 4,
+	"quality": 3,
+	"typePinJie": 3,
+	"StuTime": 960,
+	"seid": [
+		2
+	],
+	"vagueType": 1,
+	"price": 800000,
+	"desc": "300001.0",
+	"desc2": "燚帝自创火系神阶功法。",
+	"CanSale": 0,
+	"DanDu": 0,
+	"CanUse": 0,
+	"NPCCanUse": 0,
+	"yaoZhi1": 0,
+	"yaoZhi2": 0,
+	"yaoZhi3": 0,
+	"wuDao": []
+}

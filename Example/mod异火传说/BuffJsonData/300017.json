@@ -1,0 +1,20 @@
+{
+	"buffid":300017,
+	"BuffIcon":300002,
+	"skillEffect":"fx_Summoner_o",
+	"name":"通火",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		57
+	],
+	"descr":"每有一层，造成的火焰伤害提升20%，回合结束后移除一层",
+	"trigger":31,
+	"removeTrigger":3,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":0
+}

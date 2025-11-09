@@ -1,0 +1,32 @@
+{
+	"id":95009,
+	"ItemIcon":95009,
+	"maxNum":1,
+	"name":"传承玉牌",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":99,
+	"ItemFlag":[],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":12,
+	"quality":6,
+	"typePinJie":1,
+	"StuTime":0,
+	"seid":[
+		2
+	],
+	"vagueType":1,
+	"price":300,
+	"desc":"右键注入灵力学会燚诀",
+	"desc2":"燚帝自创火系神阶功法，搭配神通可以拥有毁天灭地之能。",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":1,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"wuDao":[]
+}
