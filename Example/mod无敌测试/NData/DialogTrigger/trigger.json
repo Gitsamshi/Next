@@ -1,0 +1,11 @@
+[
+    {
+        "id": "进入游戏自动启用无敌",
+        "type": "进入游戏",
+        "condition": "GetBoolSetting(\"EnableInvincible\")",
+        "triggerEvent": "启用无敌",
+        "priority": 100,
+        "default": true,
+        "once": true
+    }
+]

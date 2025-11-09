@@ -1,0 +1,31 @@
+{
+    "Name": "主角无敌Mod",
+    "Author": "Claude",
+    "Version": "1.0.0",
+    "Description": "让主角从游戏开始就处于无敌状态，免疫所有伤害。可以在设置中调整无敌效果的强度。",
+    "Settings": [
+        {
+            "Type": "Toggle",
+            "Key": "EnableInvincible",
+            "Name": "启用无敌模式",
+            "Description": "启用后角色将在进入游戏时自动获得无敌效果",
+            "DefaultValue": true
+        },
+        {
+            "Type": "IntegerSlider",
+            "Key": "InvincibleBuffLayer",
+            "Name": "无敌Buff层数",
+            "Description": "设置无敌Buff的层数，层数越多效果越强",
+            "MinValue": 1,
+            "MaxValue": 100,
+            "DefaultValue": 10
+        },
+        {
+            "Type": "Toggle",
+            "Key": "ShowNotification",
+            "Name": "显示启用提示",
+            "Description": "进入游戏时是否显示无敌效果已启用的提示",
+            "DefaultValue": true
+        }
+    ]
+}
