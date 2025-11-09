@@ -17,12 +17,12 @@
 
 1. 将整个 `mod无敌测试` 文件夹复制到游戏目录的正确位置：
    ```
-   觅长生/本地Mod测试/plugins/Next/mod无敌测试
+   觅长生/本地Mod测试/plugins/plugins/Next/mod无敌测试
    ```
 
    **注意**：
-   - 必须放在 `本地Mod测试/plugins/Next/` 目录下
-   - 如果 `plugins/Next/` 文件夹不存在，请先创建这些文件夹
+   - 必须放在 `本地Mod测试/plugins/plugins/Next/` 目录下
+   - 如果 `plugins/plugins/Next/` 文件夹不存在，请先创建这些文件夹
    - 文件夹名必须以 `mod` 开头（已满足）
 
 2. 确认文件夹结构正确：
@@ -30,11 +30,12 @@
    觅长生/
    └── 本地Mod测试/
        └── plugins/
-           └── Next/
-               └── mod无敌测试/
-                   ├── Config/
-                   ├── Data/
-                   └── NData/
+           └── plugins/
+               └── Next/
+                   └── mod无敌测试/
+                       ├── Config/
+                       ├── Data/
+                       └── NData/
    ```
 
 3. 启动游戏，Mod会自动加载（无需手动启用）
@@ -45,7 +46,7 @@
 
 ### 使用无敌效果
 
-1. 确保Mod已正确安装在 `本地Mod测试/plugins/Next/mod无敌测试` 目录
+1. 确保Mod已正确安装在 `本地Mod测试/plugins/plugins/Next/mod无敌测试` 目录
 2. 启动游戏，Mod会自动加载
 3. 进入游戏后，无敌效果将自动添加到主角
 4. 你会看到提示："检测到无敌Mod已启用...无敌效果已添加！"
@@ -90,7 +91,7 @@ mod无敌测试/
 │   ├── BuffJsonData/
 │   │   └── 999.json                # 无敌Buff数据
 │   └── BuffSeidJsonData/
-│       └── 9999.json               # Buff效果数据
+│       └── 4.json                  # Buff效果数据（抵挡伤害）
 └── README.md                        # 本说明文件
 ```
 
@@ -101,7 +102,7 @@ mod无敌测试/
 本Mod通过以下方式实现无敌效果：
 
 1. **自定义Buff**：创建了一个ID为999的无敌Buff
-2. **Buff效果**：Buff效果ID为9999，设置了极高的减伤值（-999999999）
+2. **Buff效果**：使用BuffSeid ID 4（抵挡伤害），设置极大的抵挡值（999999999点）
 3. **自动触发**：使用"进入游戏"触发器，在玩家进入游戏时自动执行
 4. **条件判断**：通过设置中的"启用无敌模式"开关控制是否启用
 5. **先天Buff**：使用先天Buff系统，确保Buff持续存在
@@ -110,16 +111,23 @@ mod无敌测试/
 
 - **Buff ID**: 999
 - **Buff名称**: 无敌
-- **效果ID**: 9999
+- **BuffSeid类型**: 4（抵挡伤害）
 - **持续时间**: 999999回合（接近永久）
-- **减伤值**: -999999999（负值表示减少受到的伤害）
+- **抵挡伤害值**: 999999999（可抵挡极高伤害）
+
+### BuffSeid说明
+
+游戏使用BuffSeid系统来定义Buff的具体效果：
+- **ID 4 - 抵挡伤害**：每层Buff可抵挡固定数值的伤害
+- **value1**: 抵挡的伤害数值（999999999点，实际上可以抵挡所有伤害）
+- 配置文件：`Data/BuffSeidJsonData/4.json`
 
 ### 自定义修改
 
 如果你想调整无敌效果，可以修改以下文件：
 
 1. **调整Buff持续时间**：编辑 `Data/BuffJsonData/999.json` 的 `totaltime` 字段
-2. **调整减伤强度**：编辑 `Data/BuffSeidJsonData/9999.json` 的 `value1` 字段
+2. **调整抵挡伤害数值**：编辑 `Data/BuffSeidJsonData/4.json` 的 `value1` 字段
 3. **修改触发条件**：编辑 `NData/DialogTrigger/trigger.json` 的 `condition` 字段
 4. **自定义提示信息**：编辑 `NData/DialogEvent/invincible.json` 的 `dialog` 数组
 
