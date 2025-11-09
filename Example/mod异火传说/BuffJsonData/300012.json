@@ -1,0 +1,20 @@
+{
+	"buffid":300012,
+	"BuffIcon":300001,
+	"skillEffect":"fx_Summoner_o",
+	"name":"火焰主宰",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		5
+	],
+	"descr":"每当你造成伤害，敌方获得等同于【燚】5倍层数的【灼烧】。每当你受到伤害，获得等同于【燚】5倍层数的【化焰】。回合开始时，你每有【燚】*1，就获得【灼烧】*30。回合开始时，你每有4层【燚】你额外吸取1点火灵气。【燚】的数量不能超过30",
+	"trigger":2,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

@@ -1,0 +1,20 @@
+{
+	"buffid":300049,
+	"BuffIcon":300049,
+	"skillEffect":"fx_Summoner_o",
+	"name":"九焰蚕丝袍",
+	"Affix":[],
+	"bufftype":7,
+	"seid":[
+		187
+	],
+	"descr":"将受到的20%伤害转给对手",
+	"trigger":7,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

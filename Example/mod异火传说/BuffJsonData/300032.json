@@ -1,0 +1,21 @@
+{
+	"buffid":300032,
+	"BuffIcon":0,
+	"skillEffect":"fx_Summoner_o",
+	"name":"燚决",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		5,
+		54
+	],
+	"descr":"每当你受到伤害，获得等同于【燚】3倍层数的【化焰】",
+	"trigger":7,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":1,
+	"ShowOnlyOne":1
+}

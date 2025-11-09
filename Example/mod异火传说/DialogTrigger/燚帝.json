@@ -1,0 +1,20 @@
+[
+    {
+        "id":"燚帝传闻触发器",
+        "type":"交谈",
+        "condition":"roleBindID==609 && GetInt(\"燚帝传闻\") == 0 &&GetItemNum(95008)==1",
+        "triggerEvent":"燚帝传闻"
+    },
+    {
+        "id":"燚帝玉佩触发器",
+        "type":"使用物品",
+        "condition":"itemID==95007",
+        "triggerEvent":"燚对话"
+    },
+    {
+        "id":"燚帝玉佩触发器3",
+        "type":"使用物品",
+        "condition":"itemID==95010",
+        "triggerEvent":"燚对话2"
+    }
+]

@@ -1,0 +1,36 @@
+{
+	"id":300053,
+	"Skill_ID":300006,
+	"Skill_Lv":3,
+	"skillEffect":"215.0",
+	"Skill_Type":3,
+	"name":"帝焱化身3",
+	"qingjiaotype":1,
+	"seid":[
+		57,
+		31
+	],
+	"Affix":[],
+	"Affix2":[],
+	"descr":"消耗【燚】*5，凝聚一个帝焱化身。每个帝焱化身在回合结束时释放一次【帝焱】",
+	"TuJiandescr":"消耗【燚】*5，凝聚一个帝焱化身。每个帝焱化身在回合结束时释放一次【帝焱】",
+	"AttackType":[
+		3
+	],
+	"script":"SkillSelf",
+	"HP":0,
+	"speed":0,
+	"icon":300006,
+	"Skill_DisplayType":0,
+	"skill_SameCastNum":[],
+	"skill_CastType":[3],
+	"skill_Cast":[5],
+	"Skill_LV":3,
+	"typePinJie":3,
+	"DF":1,
+	"TuJianType":6,
+	"Skill_Open":1,
+	"Skill_castTime":1,
+	"canUseDistMax":30,
+	"CD":10000
+}

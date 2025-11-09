@@ -1,0 +1,36 @@
+{
+	"id":300021,
+	"Skill_ID":300003,
+	"Skill_Lv":1,
+	"skillEffect":"Fire1",
+	"Skill_Type":3,
+	"name":"千万化身1",
+	"qingjiaotype":1,
+	"seid":[
+		57,
+		31
+	],
+	"Affix":[],
+	"Affix2":[],
+	"descr":"消耗【燚】*1，随机释放一种【异火】。",
+	"TuJiandescr":"消耗【燚】*1，随机释放一种【异火】。",
+	"AttackType":[
+		3
+	],
+	"script":"SkillAttack",
+	"HP":0,
+	"speed":0,
+	"icon":300003,
+	"Skill_DisplayType":0,
+	"skill_SameCastNum":[1,1],
+	"skill_CastType":[3],
+	"skill_Cast":[1],
+	"Skill_LV":3,
+	"typePinJie":3,
+	"DF":1,
+	"TuJianType":6,
+	"Skill_Open":1,
+	"Skill_castTime":1,
+	"canUseDistMax":30,
+	"CD":10000
+}

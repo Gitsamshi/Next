@@ -1,0 +1,33 @@
+{
+	"id":96002,
+	"ItemIcon":96002,
+	"maxNum":1,
+	"name":"帝焱",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":99,
+	"ItemFlag": [4,403,4034],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":3,
+	"quality":3,
+	"typePinJie":3,
+	"StuTime":240,
+	"seid":[
+		1
+	],
+	"vagueType":1,
+	"price":500000,
+	"desc":"300001.0",
+	"desc2":"燚帝自创火系神通，召唤本命火焰杀伤对手。",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":0,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"wuDao":[
+	]
+}

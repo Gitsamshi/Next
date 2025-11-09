@@ -1,0 +1,20 @@
+{
+	"buffid":300021,
+	"BuffIcon":3010,
+	"skillEffect":"fx_Summoner_o",
+	"name":"回合结束【燚】的层数翻倍",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		54,82
+	],
+	"descr":"回合结束【燚】的层数翻倍",
+	"trigger":1,
+	"removeTrigger":1,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":0
+}

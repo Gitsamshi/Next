@@ -1,0 +1,35 @@
+{
+	"id":95020,
+	"ItemIcon":96002,
+	"maxNum":1,
+	"name":"深渊魔焰",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":20,
+	"ItemFlag": [4,403,4034],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":3,
+	"quality":3,
+	"typePinJie":2,
+	"StuTime":120,
+	"seid":[
+		1
+	],
+	"vagueType":1,
+	"price":300000,
+	"desc":"300206.0",
+	"desc2":"【异火榜排行第八】诞生于自深渊中的魔焰，魔气的增幅使火焰的威力变得异常恐怖。",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":0,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"wuDao":[
+		4,3
+
+	]
+}

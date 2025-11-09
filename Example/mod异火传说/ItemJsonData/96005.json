@@ -1,0 +1,34 @@
+{
+	"id":96005,
+	"ItemIcon":96002,
+	"maxNum":1,
+	"name":"神禁火域",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":99,
+	"ItemFlag": [4,403,4034],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":3,
+	"quality":3,
+	"typePinJie":1,
+	"StuTime":200,
+	"seid":[
+		1
+	],
+	"vagueType":1,
+	"price":1000000,
+	"desc":"300004.0",
+	"desc2":"燚帝自创火系绝技。",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":0,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"wuDao":[
+
+	]
+}

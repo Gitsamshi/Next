@@ -1,0 +1,32 @@
+{
+	"id":97101,
+	"ItemIcon":97101,
+	"maxNum":99999,
+	"name":"清凉泉水雾气",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":99,
+	"ItemFlag":[],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":16,
+	"quality":3,
+	"typePinJie":0,
+	"StuTime":0,
+	"seid":[
+		5
+	],
+	"vagueType":1,
+	"price":4000,
+	"desc":"使用后神识+1",
+	"desc2":"清凉泉水的雾气，对神识有着滋养作用，尤其是灵魂体",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":1,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"wuDao":[]
+}

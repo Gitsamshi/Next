@@ -1,0 +1,35 @@
+{
+	"id":95017,
+	"ItemIcon":96002,
+	"maxNum":1,
+	"name":"琉璃冰焰",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":20,
+	"ItemFlag": [4,403,4034,402,4024],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":3,
+	"quality":3,
+	"typePinJie":3,
+	"StuTime":120,
+	"seid":[
+		1
+	],
+	"vagueType":1,
+	"price":450000,
+	"desc":"300203.0",
+	"desc2":"【异火榜排行第五】极寒之地诞生的火焰，能够像液体一般附着在对手身上将其冻结",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":0,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"wuDao":[
+		4,5,3,3
+
+	]
+}

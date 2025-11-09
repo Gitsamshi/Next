@@ -1,0 +1,35 @@
+{
+	"id":300208,
+	"Skill_ID":300202,
+	"Skill_Lv":3,
+	"skillEffect":"307.0",
+	"Skill_Type":4,
+	"name":"幽冥血焰3",
+	"qingjiaotype":1,
+	"seid":[
+		150
+	],
+	"Affix":[],
+	"Affix2":[],
+	"descr":"【异火】【吸血】造成（attack）点伤害",
+	"TuJiandescr":"【异火】【吸血】造成（attack）点伤害",
+	"AttackType":[
+		3
+	],
+	"script":"SkillAttack",
+	"HP":25,
+	"speed":0,
+	"icon":300202,
+	"Skill_DisplayType":0,
+	"skill_SameCastNum":[2],
+	"skill_CastType":[3],
+	"skill_Cast":[2],
+	"Skill_LV":3,
+	"typePinJie":1,
+	"DF":1,
+	"TuJianType":6,
+	"Skill_Open":1,
+	"Skill_castTime":1,
+	"canUseDistMax":30,
+	"CD":10000
+}
